@@ -650,26 +650,6 @@ body{
     transition: color .3s;
 }
 
-@media screen and (max-width: 1400px){
-    .page-to-right{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1400px){
-    .page-to-left h2{
-        margin: 0;
-        background: #1C0021;
-        border: 2px solid #30152E;
-        font-size: 120%;
-        font-weight: 700 #30152E;
-        text-align: left;
-        color: #FFFFFF;
-        padding: 0.2em 0.4em;
-        width: 162%;
-    }
-}
-
 .jill_page::after{
     content: "";
     background-image: url(../images/background-mp.png);
@@ -777,26 +757,6 @@ body{
     line-height: inherit;
     text-decoration: none;
     transition: color .3s;
-}
-
-@media screen and (max-width: 1400px){
-    .page-to-right{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1400px){
-    .page-to-left h2{
-        margin: 0;
-        background: #1C0021;
-        border: 2px solid #30152E;
-        font-size: 120%;
-        font-weight: 700 #30152E;
-        text-align: left;
-        color: #FFFFFF;
-        padding: 0.2em 0.4em;
-        width: 162%;
-    }
 }
 
 .gillian_page::after{
@@ -1827,11 +1787,7 @@ body{
     text-decoration: none;
     transition: color .3s;
 }
-@media screen and (max-width: 1400px){
-    .page-to-right1{
-        display: none;
-    }
-}
+
 
 .nacho_page::after{
     content: "";
@@ -2199,4 +2155,38 @@ body{
     color: #FC1783;
     line-height: inherit;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1400px){
+    .page-to-right1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .page-to-right{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .page-to-left h2{
+        margin: 0;
+        background: #1C0021;
+        border: 2px solid #30152E;
+        font-size: 120%;
+        font-weight: 700 #30152E;
+        text-align: left;
+        color: #FFFFFF;
+        padding: 0.2em 0.4em;
+        width: 162%;
+    }
+}
+@media screen and (min-width:1921px){
+    .page-to-right{
+        top: 16.5vh;
+    }
+    .page-to-left{
+
+    }
 }
